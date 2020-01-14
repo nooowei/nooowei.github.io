@@ -51,24 +51,24 @@
 
             <h2>Fitness Tracker</h2>
             <ul>
-              <li>A fitness tracker which allows user to enter and save their exercises.</li>
-              <li>A Progressive Web App (PWA) linked with database to store and retrieve information.</li>
+              <li>A fitness tracker which allows user to create profile save their exercises logs.</li>
+              <li>A Progressive Web App (PWA) linked with MongoDB to store and retrieve information.</li>
               <li>Works on both desktop and mobile sites.</li>
             </ul>
 
             <h5>Current Features</h5>
             <ul>
-              <li>Display all logged exercises in database.</li>
-              <li>Edit and delete each individual items.</li>
-              <li>Create new users and exercise logs.</li>
+              <li>User authentication with JWT, stored in MongoDB with encrypted passwords.</li>
+              <li>User authorization for accessing protected routes, such as create, edit and delete logs.</li>
+              <li>Anyone can view all the log entries in the databse on View All page.</li>
+              <li>No duplicated email address or username allowed at registration.</li>
               <li>Verify user input with Mongoose to ensure data integrity.</li>
+              <li>Users will be send to their profile page after logging in, which only displays current user's entries.</li> 
             </ul>
 
             <h5>To be Added</h5>
             <ul>
-              <li>User Authentication with JWT or Express Session, to enable profile creation.</li>
-              <li>Implementing Redux to store the user information in the global state. </li>
-              <li>New features are being being worked on in the "new-feature--user-auth" branch on Github. </li>
+              <li>New features are being being worked on in the "new-feature" branch on Github. </li>
             </ul>
           </div>
 
@@ -85,6 +85,9 @@
               <div class="sticky-content">
                 <h4 class="h4 mb-3">Components Used</h4>
                 <ul class="list-unstyled list-line mb-5">
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Javascript</li>
                   <li>Node.js</li>
                   <li>Express.js</li>
                   <li>MongoDB</li>
@@ -93,6 +96,8 @@
                   <li>Redux</li>
                   <li>Bootstrap</li>
                   <li>Heroku</li>
+                  <li>JWT</li>
+                  <li>Git</li>
                 </ul>
 
                 <p>
